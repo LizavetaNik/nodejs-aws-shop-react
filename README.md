@@ -36,3 +36,16 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+## Deploy links
+
+- S3 bucket URL (public accessible) (task 2.1 ): https://shop-react-rs.s3.eu-north-1.amazonaws.com/index.html
+- CloudFront URL (task 2.1 ): https://d2730ml5lsb2fr.cloudfront.net
+- S3 bucket URL, returns 403 Access Denied error, available only via CloudFront (task 2.2): https://shop-react-rs-second.s3.eu-north-1.amazonaws.com/index.html
+- CloudFront URL (task 2.2 ): https://d116u3qzbc18bi.cloudfront.net
+
+### `cdk`
+
+- `cdk:bs` Bootstrap your AWS environment for CDK
+- `cdk:deploy` Deploy this stack to your default AWS account/region
+- `cdk:destroy` Remove CDK stacks and associated resources
